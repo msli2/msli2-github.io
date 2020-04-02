@@ -1,0 +1,67 @@
+﻿source,target,type
+Abhishek Bachchan,Aishwarya Rai Bachchan,marriage
+Abhishek Bachchan,Shweta Bachchan Nanda,sibling
+Ajitabh Bachchan,Naina Bachchan,parentchild
+Amitabh Bachchan,Abhishek Bachchan,parent-child
+Amitabh Bachchan,Shweta Bachchan Nanda,parent-child
+Harivansh Rai Bachchan,Ajitabh Bachchan,parent-child
+Jaya Bachchan,Abhishek Bachchan,parent-child
+Jaya Bachchan,Amitabh Bachchan,marriage
+Jaya Bachchan,Shweta Bachchan Nanda,parent-child
+Naina Bachchan,Kunal Kapoor,marriage
+Teji Bachchan,Ajitabh Bachchan,parent-child
+Teji Bachchan,Amitabh Bachchan,parent-child
+Teji Bachchan,Harivansh Rai Bachchan,marriage
+Anil Kapoor,Boney Kapoor,sibling
+Anil Kapoor,Harshvardhan Kapoor,parent-child
+Anil Kapoor,Rhea Kapoor,parent-child
+Anil Kapoor,Sanjay Kapoor,sibling
+Anil Kapoor,Sonam Kapoor,parent-child
+Babita Kapoor,Kareena Kapoor,parent-child
+Babita Kapoor,Karisma Kapoor,parent-child
+Boney Kapoor,Arjun Kapoor,parent-child
+Boney Kapoor,Sridevi Kapoor,marriage
+Geeta Bali Kapoor,Kanchan Desai,parent-child
+Geeta Bali Kapoor,Aditya Raj Kapoor,parent-child
+Jayasudha Kapoor,Nitin Kapoor,marriage
+Jeetendra Kapoor,Ekta Kapoor,parent-child
+Jeetendra Kapoor,Shashi/Madhu Kapoor,sibling
+Jeetendra Kapoor,Shobha Kapoor,marriage
+Jeetendra Kapoor,Tusshar Kapoor,parent-child
+Jennifer Kendal Kapoor,Karan Kapoor,parent-child
+Kareena Kapoor,Karisma Kapoor,sibling
+Kareena Kapoor,Saif Ali Khan,marriage
+Mahendra Kapoor,Rohan Kapoor,parent-child
+Neetu Singh Kapoor,Ranbir Kapoor,parent-child
+Prithviraj Kapoor,Raj Kapoor,parent-child
+Prithviraj Kapoor,Shammi Kapoor,parent-child
+Prithviraj Kapoor,Shashi Kapoor,parent-child
+Raj Kapoor,Rima Jain,parent-child
+Raj Kapoor,Krishna Kapoor,marriage
+Raj Kapoor,Randhir Kapoor,parent-child
+Raj Kapoor,Rishi Kapoor,parent-child
+Raj Kapoor,Ritu Kapoor Nanda,parent-child
+Raj Kapoor,Shammi Kapoor,sibling
+Raj Kapoor,Shashi Kapoor,sibling
+Rajiv Kapoor,Rima Jain,sibling
+Rajiv Kapoor,Ritu Kapoor Nanda,sibling
+Randhir Kapoor,Rima Jain,sibling
+Randhir Kapoor,Babita Kapoor,marriage
+Randhir Kapoor,Karisma Kapoor,parent-child
+Randhir Kapoor,Ritu Kapoor Nanda,sibling
+Rishi Kapoor,Rima Jain,sibling
+Rishi Kapoor,Neetu Singh Kapoor,marriage
+Rishi Kapoor,Ritu Kapoor Nanda,sibling
+Sanjana Kapoor,Aditya Bhattacharya,marriage
+Sanjana Kapoor,Valmik Thapar,marriage
+Shakti Kapoor,Shraddha Kapoor,parent-child
+Shakti Kapoor,Siddhanth Kapoor,parent-child
+Shakti Kapoor,Shivangi Kolhapure,marriage
+Shammi Kapoor,Geeta Bali Kapoor,marriage
+Shammi Kapoor,Kanchan Desai,parent-child
+Shammi Kapoor,Aditya Raj Kapoor,parent-child
+Shashi Kapoor,Jennifer Kendal Kapoor,marriage
+Shashi Kapoor,Karan Kapoor,parent-child
+Sashi/Madhu Kapoor,Abhishek Kapoor,parent-child
+Sridevi Kapoor,Janhvi Kapoor,parent-child
+Rishi Kapoor,Ranbir Kapoor,parent-child

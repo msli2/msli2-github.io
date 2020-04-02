@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="./networkgraph2.css" type="text/css" rel="stylesheet">
+    <title>BollyWood Dynasties</title>
+  </head>
+<body>
+  <div class = "title">
+    <h1>BollyWood Dynasties</h1>
+    </div>
+    <table style="width:100%;">
+        <tr>
+          <th> 
+              <a href="index.html" style="color:black">
+              <strong> Version 3 </strong> 
+              </a>
+            </th>
+            <th style="text-align:center">
+                <a href="index2.html"> Version 4 </a> 
+            </th>
+        </tr>
+      </table>
+    <table style="width:30%", class="relationship">
+        <tr>
+          <th>RELATIONSHIP</th>
+          <td>COLOR</td>
+        <tr>
+          <th >Marriage</th>
+          <td style="color:#F67280">Pink</td>
+        </tr>
+        <tr>
+          <th>Sibling</th>
+          <td style="color:#6C5B7B">Purple</td>
+        </tr>
+        <tr>
+          <th>Parent_Child</th>
+          <td style="color:#355C7D">Blue</td>
+        </tr>
+      </table>
+      <table style="width:30%", class="profession">
+        <tr>
+          <th>PROFESSION</th>
+          <td>COLOR</td>
+        <tr>
+          <th>Actor</th>
+          <td style="color:#A7226E">Purple</td>
+        </tr>
+        <tr>
+          <th>Director</th>
+          <td style="color:#EC2049">Pink</td>
+        </tr>
+        <tr>
+          <th>Producer</th>
+          <td style="color:#F26B38">Orange</td>
+        </tr>
+        <tr>
+          <th>Music</th>
+          <td style="color:#F7DB4F">Yellow</td>
+        </tr>
+        <tr>
+          <th>Relative</th>
+          <td style="color:#2F9599">Teal</td>
+        </tr>
+        <tr>
+          <th>Other</th>
+           <td style="color:#594F4F">Black</td>
+        </tr>
+      </table>
+<div id="graph"></div>
+<script src="//d3js.org/d3.v4.min.js"></script>
+<script>
+
+    var graphDiv = document.getElementById("graph");
+    var svg = d3.select(graphDiv).append("svg");
+
+    var width = graphDiv.clientWidth,
+        height = graphDiv.clientHeight;
+
+    svg
+        .attr("width", width)
+        .attr("height", height);
+
+    var nodecolor = d3.scaleOrdinal()
+        .domain(["actor", "director", "producer", "music", "relative", "other"])
+        .range(["#A7226E ", "#EC2049 ", "#F26B38", "#F7DB4F", "#2F9599", "#594F4F"]);
+    var linkcolor = d3.scaleOrdinal()
+        .domain(["marriage", "sibling", "parent-child"])
+        .range(["#F67280", "#6C5B7B", "#355C7D"]);
+
+    var simulation = d3.forceSimulation()
+        .force("link", d3.forceLink().id(function(d) { return d.name; }).distance(40))
+        .force("charge", d3.forceManyBody().strength(-150))
+        .force("x", d3.forceX(width / 2))
+        .force("y", d3.forceY(height / 3));
+
+    d3.json("bollywooddynasties.json", function(error, graph) {
+        if (error) throw error;
+
+    var link = svg.append("g")
+        .attr("class", "links")
+        .selectAll("line")
+        .data(graph.links)
+        .enter().append("line") 
+        .attr("stroke", function(d) { return linkcolor(d.value);}) 
+
+    var node = svg.append("g")
+        .attr("class", "nodes")
+        .selectAll("g")
+        .data(graph.nodes)
+        .enter().append("g")
+        
+    var circles = node.append("circle")
+        .attr("r", 9)
+        .attr("fill", function(d) { return nodecolor(d.group); })
+        .call(d3.drag()
+            .on("start", dragstarted)
+            .on("drag", dragged)
+            .on("end", dragended));
+
+    var lables = node.append("text")
+        .text(function(d) {
+            return d.name;
+        })
+        .attr('x', 6)
+        .attr('y', 6);
+
+    node.append("title")
+        .text(function(d) { return d.name; });
+
+    simulation
+        .nodes(graph.nodes)
+        .on("tick", ticked);
+
+    simulation.force("link")
+        .links(graph.links);
+
+    function ticked() {
+        link
+            .attr("x1", function(d) { return d.source.x; })
+            .attr("y1", function(d) { return d.source.y; })
+            .attr("x2", function(d) { return d.target.x; })
+            .attr("y2", function(d) { return d.target.y; });
+
+        node
+            .attr("transform", function(d) {
+            return "translate(" + d.x + "," + d.y + ")";
+            })
+    }
+    });
+
+    function dragstarted(d) {
+    if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+        d.fx = d.x;
+        d.fy = d.y;
+    }
+
+    function dragged(d) {
+        d.fx = d3.event.x;
+        d.fy = d3.event.y;
+    }
+
+    function dragended(d) {
+    if (!d3.event.active) simulation.alphaTarget(0);
+        d.fx = null;
+        d.fy = null;
+    }
+  
+</script>
+</body>
+</html>

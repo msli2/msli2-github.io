@@ -1,0 +1,49 @@
+#graph {
+    width: 50%;
+    height: 0;
+    padding-top: 40%;
+    position: relative;
+}
+
+svg {
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+
+.title {
+    padding-top: 2%;
+    position: relative;
+    text-align: center;
+}
+
+.link {
+    stroke: #000;
+}
+
+.node {
+    stroke: #fff;
+}
+
+.link.marriage{
+    stroke: red;
+    stroke-opacity: .3; 
+    stroke-width: 4;
+}
+
+.link.sibling{
+    stroke: purple;
+    stroke-opacity: .3; 
+    stroke-width: 4;
+}
+
+.link.parent-child{
+    stroke: blue;
+    stroke-opacity: .3; 
+    stroke-width: 4;
+}
+
+text {
+    font-family: times;
+    font-size: 15px;
+} 

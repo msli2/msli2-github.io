@@ -1,0 +1,637 @@
+{
+"nodes": [
+    {
+      "name": "Abhishek Bachchan",
+      "group": "actor",
+      "nodesize": 4
+    },
+    {
+      "name": "Aishwarya Rai Bachchan",
+      "group": "actor",
+      "nodesize": 1
+    },
+    {
+      "name": "Ajitabh Bachchan",
+      "group": "relative",
+      "nodesize": 3
+    },
+    {
+      "name": "Amitabh Bachchan",
+      "group": "actor",
+      "nodesize": 4
+    },
+    {
+      "name": "Harivansh Rai Bachchan",
+      "group": "other",
+      "nodesize": 2
+    },
+    {
+      "name": "Jaya Bachchan",
+      "group": "actor",
+      "nodesize": 3
+    },
+    {
+      "name": "Naina Bachchan",
+      "group": "relative",
+      "nodesize": 2
+    },
+    {
+      "name": "Teji Bachchan",
+      "group": "relative",
+      "nodesize": 3
+    },
+    {
+      "name": "Aditya Bhattacharya",
+      "group": "director",
+      "nodesize": 1
+    },
+    {
+      "name": "Abhishek Kapoor",
+      "group": "director",
+      "nodesize": 1
+    },
+    {
+      "name": "Aditya Raj Kapoor",
+      "group": "actor",
+      "nodesize": 2
+    },
+    {
+      "name": "Anil Kapoor",
+      "group": "actor",
+      "nodesize": 5
+    },
+    {
+      "name": "Arjun Kapoor",
+      "group": "actor",
+      "nodesize": 1
+    },
+    {
+      "name": "Babita Kapoor",
+      "group": "actor",
+      "nodesize": 3
+    },
+    {
+      "name": "Boney Kapoor",
+      "group": "producer",
+      "nodesize": 3
+    },
+    {
+      "name": "Ekta Kapoor",
+      "group": "producer",
+      "nodesize": 1
+    },
+    {
+      "name": "Geeta Bali Kapoor",
+      "group": "actor",
+      "nodesize": 6
+    },
+    {
+      "name": "Harshvardhan Kapoor",
+      "group": "actor",
+      "nodesize": 1
+    },
+    {
+      "name": "Janhvi Kapoor",
+      "group": "actor",
+      "nodesize": 1
+    },
+    {
+      "name": "Jayasudha Kapoor",
+      "group": "actor",
+      "nodesize": 1
+    },
+    {
+      "name": "Jeetendra Kapoor",
+      "group": "actor",
+      "nodesize": 4
+    },
+    {
+      "name": "Jennifer Kendal Kapoor",
+      "group": "actor",
+      "nodesize": 2
+    },
+    {
+      "name": "Karan Kapoor",
+      "group": "actor",
+      "nodesize": 2
+    },
+    {
+      "name": "Kareena Kapoor",
+      "group": "actor",
+      "nodesize": 3
+    },
+    {
+      "name": "Karisma Kapoor",
+      "group": "actor",
+      "nodesize": 3
+    },
+    {
+      "name": "Krishna Kapoor",
+      "group": "relative",
+      "nodesize": 1
+    },
+    {
+      "name": "Kunal Kapoor",
+      "group": "actor",
+      "nodesize": 1
+    },
+    {
+      "name": "Mahendra Kapoor",
+      "group": "music",
+      "nodesize": 1
+    },
+    {
+      "name": "Neetu Singh Kapoor",
+      "group": "actor",
+      "nodesize": 2
+    },
+    {
+      "name": "Nitin Kapoor",
+      "group": "producer",
+      "nodesize": 1
+    },
+    {
+      "name": "Prithviraj Kapoor",
+      "group": "actor",
+      "nodesize": 3
+    },
+    {
+      "name": "Raj Kapoor",
+      "group": "actor",
+      "nodesize": 8
+    },
+    {
+      "name": "Rajiv Kapoor",
+      "group": "actor",
+      "nodesize": 2
+    },
+    {
+      "name": "Ranbir Kapoor",
+      "group": "actor",
+      "nodesize": 2
+    },
+    {
+      "name": "Randhir Kapoor",
+      "group": "actor",
+      "nodesize": 5
+    },
+    {
+      "name": "Rhea Kapoor",
+      "group": "producer",
+      "nodesize": 1
+    },
+    {
+      "name": "Rishi Kapoor",
+      "group": "actor",
+      "nodesize": 5
+    },
+    {
+      "name": "Rohan Kapoor",
+      "group": "actor",
+      "nodesize": 1
+    },
+    {
+      "name": "Sanjana Kapoor",
+      "group": "actor",
+      "nodesize": 2
+    },
+    {
+      "name": "Sanjay Kapoor",
+      "group": "actor",
+      "nodesize": 1
+    },
+    {
+      "name": "Sashi/Madhu Kapoor",
+      "group": "relative",
+      "nodesize": 2
+    },
+    {
+      "name": "Shakti Kapoor",
+      "group": "actor",
+      "nodesize": 3
+    },
+    {
+      "name": "Shammi Kapoor",
+      "group": "actor",
+      "nodesize": 5
+    },
+    {
+      "name": "Shashi Kapoor",
+      "group": "actor",
+      "nodesize": 4
+    },
+    {
+      "name": "Shobha Kapoor",
+      "group": "producer",
+      "nodesize": 1
+    },
+    {
+      "name": "Shraddha Kapoor",
+      "group": "actor",
+      "nodesize": 1
+    },
+    {
+      "name": "Siddhanth Kapoor",
+      "group": "actor",
+      "nodesize": 1
+    },
+    {
+      "name": "Sonam Kapoor",
+      "group": "actor",
+      "nodesize": 1
+    },
+    {
+      "name": "Sridevi Kapoor",
+      "group": "actor",
+      "nodesize": 2
+    },
+    {
+      "name": "Tusshar Kapoor",
+      "group": "actor",
+      "nodesize": 1
+    },
+    {
+      "name": "Saif Ali  Khan",
+      "group": "actor",
+      "nodesize": 1
+    },
+    {
+      "name": "Shweta Bachchan Nanda",
+      "group": "relative",
+      "nodesize": 4
+    },
+    {
+      "name": "Harivansh Rai Bachchan",
+      "group": "other",
+      "nodesize": 2
+    },
+    {
+      "name": "Kanchan Desai",
+      "group": "producer",
+      "nodesize": 3
+    },
+    {
+      "name": "Shashi/Madhu Kapoor",
+      "group": "relative",
+      "nodesize": 2
+    },
+    {
+      "name": "Saif Ali Khan",
+      "group": "actor",
+      "nodesize": 4
+    },
+    {
+      "name": "Rima Jain",
+      "group": "relative",
+      "nodesize": 7
+    },
+    {
+      "name": "Ritu Kapoor Nanda",
+      "group": "relative",
+      "nodesize": 6
+    },
+    {
+      "name": "Valmik Thapar",
+      "group": "producer",
+      "nodesize": 1
+    },
+    {
+      "name": "Shivangi Kolhapure",
+      "group": "music",
+      "nodesize": 4
+    }
+  ],
+  "links": [
+    {
+      "source": "Abhishek Bachchan",
+      "target": "Aishwarya Rai Bachchan",
+      "value": "marriage"
+    },
+    {
+      "source": "Abhishek Bachchan",
+      "target": "Shweta Bachchan Nanda",
+      "value": "sibling"
+    },
+    {
+      "source": "Ajitabh Bachchan",
+      "target": "Naina Bachchan",
+      "value": "parent-child"
+    },
+    {
+      "source": "Amitabh Bachchan",
+      "target": "Abhishek Bachchan",
+      "value": "parent-child"
+    },
+    {
+      "source": "Amitabh Bachchan",
+      "target": "Shweta Bachchan Nanda",
+      "value": "parent-child"
+    },
+    {
+      "source": "Harivansh Rai Bachchan",
+      "target": "Ajitabh Bachchan",
+      "value": "parent-child"
+    },
+    {
+      "source": "Jaya Bachchan",
+      "target": "Abhishek Bachchan",
+      "value": "parent-child"
+    },
+    {
+      "source": "Jaya Bachchan",
+      "target": "Amitabh Bachchan",
+      "value": "marriage"
+    },
+    {
+      "source": "Jaya Bachchan",
+      "target": "Shweta Bachchan Nanda",
+      "value": "parent-child"
+    },
+    {
+      "source": "Naina Bachchan",
+      "target": "Kunal Kapoor",
+      "value": "marriage"
+    },
+    {
+      "source": "Teji Bachchan",
+      "target": "Ajitabh Bachchan",
+      "value": "parent-child"
+    },
+    {
+      "source": "Teji Bachchan",
+      "target": "Amitabh Bachchan",
+      "value": "parent-child"
+    },
+    {
+      "source": "Teji Bachchan",
+      "target": "Harivansh Rai Bachchan",
+      "value": "marriage"
+    },
+    {
+      "source": "Anil Kapoor",
+      "target": "Boney Kapoor",
+      "value": "sibling"
+    },
+    {
+      "source": "Anil Kapoor",
+      "target": "Harshvardhan Kapoor",
+      "value": "parent-child"
+    },
+    {
+      "source": "Anil Kapoor",
+      "target": "Rhea Kapoor",
+      "value": "parent-child"
+    },
+    {
+      "source": "Anil Kapoor",
+      "target": "Sanjay Kapoor",
+      "value": "sibling"
+    },
+    {
+      "source": "Anil Kapoor",
+      "target": "Sonam Kapoor",
+      "value": "parent-child"
+    },
+    {
+      "source": "Babita Kapoor",
+      "target": "Kareena Kapoor",
+      "value": "parent-child"
+    },
+    {
+      "source": "Babita Kapoor",
+      "target": "Karisma Kapoor",
+      "value": "parent-child"
+    },
+    {
+      "source": "Boney Kapoor",
+      "target": "Arjun Kapoor",
+      "value": "parent-child"
+    },
+    {
+      "source": "Boney Kapoor",
+      "target": "Sridevi Kapoor",
+      "value": "marriage"
+    },
+    {
+      "source": "Geeta Bali Kapoor",
+      "target": "Kanchan Desai",
+      "value": "parent-child"
+    },
+    {
+      "source": "Geeta Bali Kapoor",
+      "target": "Aditya Raj Kapoor",
+      "value": "parent-child"
+    },
+    {
+      "source": "Jayasudha Kapoor",
+      "target": "Nitin Kapoor",
+      "value": "marriage"
+    },
+    {
+      "source": "Jeetendra Kapoor",
+      "target": "Ekta Kapoor",
+      "value": "parent-child"
+    },
+    {
+      "source": "Jeetendra Kapoor",
+      "target": "Shashi/Madhu Kapoor",
+      "value": "sibling"
+    },
+    {
+      "source": "Jeetendra Kapoor",
+      "target": "Shobha Kapoor",
+      "value": "marriage"
+    },
+    {
+      "source": "Jeetendra Kapoor",
+      "target": "Tusshar Kapoor",
+      "value": "parent-child"
+    },
+    {
+      "source": "Jennifer Kendal Kapoor",
+      "target": "Karan Kapoor",
+      "value": "parent-child"
+    },
+    {
+      "source": "Kareena Kapoor",
+      "target": "Karisma Kapoor",
+      "value": "sibling"
+    },
+    {
+      "source": "Kareena Kapoor",
+      "target": "Saif Ali Khan",
+      "value": "marriage"
+    },
+    {
+      "source": "Mahendra Kapoor",
+      "target": "Rohan Kapoor",
+      "value": "parent-child"
+    },
+    {
+      "source": "Neetu Singh Kapoor",
+      "target": "Ranbir Kapoor",
+      "value": "parent-child"
+    },
+    {
+      "source": "Prithviraj Kapoor",
+      "target": "Raj Kapoor",
+      "value": "parent-child"
+    },
+    {
+      "source": "Prithviraj Kapoor",
+      "target": "Shammi Kapoor",
+      "value": "parent-child"
+    },
+    {
+      "source": "Prithviraj Kapoor",
+      "target": "Shashi Kapoor",
+      "value": "parent-child"
+    },
+    {
+      "source": "Raj Kapoor",
+      "target": "Rima Jain",
+      "value": "parent-child"
+    },
+    {
+      "source": "Raj Kapoor",
+      "target": "Krishna Kapoor",
+      "value": "marriage"
+    },
+    {
+      "source": "Raj Kapoor",
+      "target": "Randhir Kapoor",
+      "value": "parent-child"
+    },
+    {
+      "source": "Raj Kapoor",
+      "target": "Rishi Kapoor",
+      "value": "parent-child"
+    },
+    {
+      "source": "Raj Kapoor",
+      "target": "Ritu Kapoor Nanda",
+      "value": "parent-child"
+    },
+    {
+      "source": "Raj Kapoor",
+      "target": "Shammi Kapoor",
+      "value": "sibling"
+    },
+    {
+      "source": "Raj Kapoor",
+      "target": "Shashi Kapoor",
+      "value": "sibling"
+    },
+    {
+      "source": "Rajiv Kapoor",
+      "target": "Rima Jain",
+      "value": "sibling"
+    },
+    {
+      "source": "Rajiv Kapoor",
+      "target": "Ritu Kapoor Nanda",
+      "value": "sibling"
+    },
+    {
+      "source": "Randhir Kapoor",
+      "target": "Rima Jain",
+      "value": "sibling"
+    },
+    {
+      "source": "Randhir Kapoor",
+      "target": "Babita Kapoor",
+      "value": "marriage"
+    },
+    {
+      "source": "Randhir Kapoor",
+      "target": "Karisma Kapoor",
+      "value": "parent-child"
+    },
+    {
+      "source": "Randhir Kapoor",
+      "target": "Ritu Kapoor Nanda",
+      "value": "sibling"
+    },
+    {
+      "source": "Rishi Kapoor",
+      "target": "Rima Jain",
+      "value": "sibling"
+    },
+    {
+      "source": "Rishi Kapoor",
+      "target": "Neetu Singh Kapoor",
+      "value": "marriage"
+    },
+    {
+      "source": "Rishi Kapoor",
+      "target": "Ritu Kapoor Nanda",
+      "value": "sibling"
+    },
+    {
+      "source": "Sanjana Kapoor",
+      "target": "Aditya Bhattacharya",
+      "value": "marriage"
+    },
+    {
+      "source": "Sanjana Kapoor",
+      "target": "Valmik Thapar",
+      "value": "marriage"
+    },
+    {
+      "source": "Shakti Kapoor",
+      "target": "Shraddha Kapoor",
+      "value": "parent-child"
+    },
+    {
+      "source": "Shakti Kapoor",
+      "target": "Siddhanth Kapoor",
+      "value": "parent-child"
+    },
+    {
+      "source": "Shakti Kapoor",
+      "target": "Shivangi Kolhapure",
+      "value": "marriage"
+    },
+    {
+      "source": "Shammi Kapoor",
+      "target": "Geeta Bali Kapoor",
+      "value": "marriage"
+    },
+    {
+      "source": "Shammi Kapoor",
+      "target": "Kanchan Desai",
+      "value": "parent-child"
+    },
+    {
+      "source": "Shammi Kapoor",
+      "target": "Aditya Raj Kapoor",
+      "value": "parent-child"
+    },
+    {
+      "source": "Shashi Kapoor",
+      "target": "Jennifer Kendal Kapoor",
+      "value": "marriage"
+    },
+    {
+      "source": "Shashi Kapoor",
+      "target": "Karan Kapoor",
+      "value": "parent-child"
+    },
+    {
+      "source": "Sashi/Madhu Kapoor",
+      "target": "Abhishek Kapoor",
+      "value": "parent-child"
+    },
+    {
+      "source": "Sridevi Kapoor",
+      "target": "Janhvi Kapoor",
+      "value": "parent-child"
+    },
+    {
+      "source": "Rishi Kapoor",
+      "target": "Ranbir Kapoor",
+      "value": "parent-child"
+    }
+  ]
+}
+  
